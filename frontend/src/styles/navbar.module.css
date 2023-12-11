@@ -1,0 +1,89 @@
+.body {
+    margin: 0; /* Remove default body margin to properly position NavBar*/
+}
+
+.navBarContainer {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0;
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-sizing: border-box;
+}
+
+.navBarCaption {
+    font-family: "neue-haas-grotesk-display", sans-serif;   /* Neue Haas Grotesk Display font family */
+    font-style: normal;
+    font-weight: 600;                                       
+    font-size: 12px; 
+}
+
+.rippleAnimationTop {
+    width: 100px;
+    height: 2px;
+    border-radius: 10px;
+    background-color: black;
+    position: relative;
+    animation: rippleTop 2s infinite;
+    margin: 4px auto; /* Center the ripple */
+}
+
+.rippleAnimationMid {
+    width: 110px;
+    height: 2px;
+    border-radius: 10px;
+    background-color: black;
+    position: relative;
+    animation: rippleMid 2s infinite;
+    margin: 4px auto; /* Center the ripple */
+}
+
+.rippleAnimationBot {
+    width: 140px;
+    height: 2px;
+    border-radius: 10px;
+    background-color: black;
+    position: relative;
+    animation: rippleBot 2s infinite;
+    margin: 4px auto; /* Center the ripple */
+}
+
+@keyframes rippleTop {
+    0% {
+        opacity: 0.3;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0.7;
+        transform: translateY(16px)
+    }
+}
+
+@keyframes rippleMid {
+    0% {
+        opacity: 0.2;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0.6;
+        transform: translateY(20px)
+    }
+}
+
+@keyframes rippleBot {
+    0% {
+        opacity: 0.1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0.4;
+        transform: translateY(28px)
+    }
+}
