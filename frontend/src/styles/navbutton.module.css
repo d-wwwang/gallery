@@ -4,18 +4,19 @@
     border: 2px solid black;
     border-radius: 16px;
     cursor: pointer;
-    font-family: "neue-haas-grotesk-text", sans-serif;   /* Neue Haas Grotesk Display font family */
+    font-family: "neue-haas-grotesk-text", sans-serif;
     font-style: normal;
     font-weight: 700;                                       
     font-size: 24px;
-    transition: opacity 0.3s;
-    text-decoration: none;
-}
-
-.navButton:hover {
-    opacity: 0.8;
+    transition: background-color 1.5s, color 0.5s;
 }
 
 .navButton:active {
-    transform: scale(0.95);
+    background-color: black;
+    color: white;
+}
+
+.navButtonLink {
+    text-decoration: none;
+    color: black;
 }

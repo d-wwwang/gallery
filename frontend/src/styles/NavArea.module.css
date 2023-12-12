@@ -1,0 +1,15 @@
+.navAreaContainer {
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding-top: 50px;
+}
+
+.navAreaCaption {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-style: normal;
+    font-weight: 600;                                       
+    font-size: 12px;
+    padding-top: 6px; 
+}
