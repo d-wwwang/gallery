@@ -1,0 +1,102 @@
+.textContainer {
+    position: relative;         
+    text-align: center;         /* Centers content to the container */
+}
+
+.titleContainer {
+    display: flex;              /* Flex display */
+    flex-direction: column;     /* Column arrangement */
+    align-items: center;        /* Vertical alignment */
+    justify-content: center;    /* Horizontal alignment */
+    min-height: 100vh;          /* Full viewport height */
+    margin: 0;                  /* Override default margin applied by the browser */
+}
+
+.title {
+    font-family: "neue-haas-grotesk-text", sans-serif;   /* Neue Haas Grotesk Display font family */
+    font-style: normal;
+    font-weight: 700;                                       
+    font-size: 175px;           
+    min-height: 175px;          /* Minimum text size. Prevents text from becoming too small */     
+    margin: 0;                  /* Override default margin applied by the browser */
+}
+
+.subtitle {
+    font-family: "neue-haas-grotesk-text", sans-serif;   /* Neue Haas Grotesk Display font family */
+    font-style: normal;
+    font-weight: 500;                                       
+    font-size: 30px; 
+    min-height: 16px;           /* Minimum text size; prevents text from becoming too small */     
+    margin-top: -10px;          /* Spacing between title and subtitle */
+}
+
+.footer {
+    position: fixed;
+    bottom: 16px;
+    width: 100%;                 /* Allows text-align to be centered by spanning container across the entire width */
+    text-align: center;          /* Centers text horizontally */
+    font-family: "neue-haas-grotesk-text", sans-serif;   /* Neue Haas Grotesk Display font family */
+    font-style: normal;
+    font-weight: 500;    
+    font-size: 30px;
+} 
+
+.floatingCommunityLink {
+    position: absolute;         /* absolute positioning is higher priority than text-align */
+    font-family: "neue-haas-grotesk-text", sans-serif;   /* Neue Haas Grotesk Display font family */
+    font-style: normal;
+    font-weight: 500;                                       
+    font-size: 30px; 
+    top: 19%;
+    left: 22%;
+}
+
+.floatingCommunityLink a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.floatingBrowseLink {
+    position: absolute;         /* absolute positioning is higher priority than text-align */
+    font-family: "neue-haas-grotesk-text", sans-serif;   /* Neue Haas Grotesk Display font family */
+    font-style: normal;
+    font-weight: 500;                                       
+    font-size: 30px; 
+    top: 15%;
+    right: 22%;
+}
+
+.floatingBrowseLink a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.floatingClosetLink {
+    position: absolute;         /* absolute positioning is higher priority than text-align */
+    font-family: "neue-haas-grotesk-text", sans-serif;   /* Neue Haas Grotesk Display font family */
+    font-style: normal;
+    font-weight: 500;                                       
+    font-size: 30px; 
+    bottom: 25%;
+    left: 18%;
+}
+
+.floatingClosetLink a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.floatingSettingsLink {
+    position: absolute;         /* absolute positioning is higher priority than text-align */
+    font-family: "neue-haas-grotesk-text", sans-serif;   /* Neue Haas Grotesk Display font family */
+    font-style: normal;
+    font-weight: 500;                                       
+    font-size: 30px; 
+    bottom: 21%;
+    right: 18%;
+}
+
+.floatingSettingsLink a {
+    color: #000000;
+    text-decoration: none;
+}

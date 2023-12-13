@@ -1,0 +1,14 @@
+.navBarContainer {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 30px;
+    margin: 0;
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-sizing: border-box;
+}

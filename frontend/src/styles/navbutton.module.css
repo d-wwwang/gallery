@@ -1,0 +1,22 @@
+.navButton {
+    background-color: white;
+    padding: 12px 44px;
+    border: 2px solid black;
+    border-radius: 16px;
+    cursor: pointer;
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-style: normal;
+    font-weight: 700;                                       
+    font-size: 24px;
+    transition: background-color 1.5s, color 0.5s;
+}
+
+.navButton:active {
+    background-color: black;
+    color: white;
+}
+
+.navButtonLink {
+    text-decoration: none;
+    color: black;
+}

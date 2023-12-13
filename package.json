@@ -1,0 +1,10 @@
+{
+  "name": "gallery",
+  "version": "1.0.0",
+  "description": "The home of Gallery.",
+  "main": "index.js",
+  "scripts": {},
+  "author": "dwwwang@berkeley.edu",
+  "license": "UNLICENSED",
+  "repository": "https://github.com/d-wwwang/gallery.git"
+}
