@@ -30,7 +30,7 @@
 
 @keyframes rippleTop {
     0% {
-        opacity: 0.3;
+        opacity: 0;
         transform: translateY(0);
     }
     100% {
@@ -41,7 +41,7 @@
 
 @keyframes rippleMid {
     0% {
-        opacity: 0.2;
+        opacity: 0;
         transform: translateY(0);
     }
     100% {
@@ -52,7 +52,7 @@
 
 @keyframes rippleBot {
     0% {
-        opacity: 0.1;
+        opacity: 0;
         transform: translateY(0);
     }
     100% {
