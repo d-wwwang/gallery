@@ -9,15 +9,31 @@
     height: 50vh; /* Half of viewport height */
     width: 100%; /* Fits column width */
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     overflow: hidden; /* Ensures image does not overflow the block */
     border-bottom: 2px solid black;
-    border-top: none; /* Prevents overlapping of borders */
+    border-top: none; /* Prevents overlapping of borders */   
+}
+
+.blockTitle {
+    font-family: "neue-haas-grotesk-text", sans-serif;   /* Neue Haas Grotesk Display font family */
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 18px;
+}
+
+.blockDescription {
+    font-family: "neue-haas-grotesk-text", sans-serif;   /* Neue Haas Grotesk Display font family */
+    font-style: normal;
+    font-weight: 500; 
+    padding-bottom: 16px;
+    font-size: 18px;
 }
 
 .columnBlockImage {
-    height: 100%;
+    height: 75%;
     width: 100%;
     object-fit: contain; /* Ensures image fits the block area */
 }

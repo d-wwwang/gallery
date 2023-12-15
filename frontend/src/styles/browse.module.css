@@ -9,7 +9,8 @@
 
 .columnPairContainer {
     display: flex;
-    width: calc(6/18 * 100%); /* Width of column pair (3/18 * 2) */
+    flex: 1; /* Allows column pairs to take up remaining space */
+    /* flex: 0 0 calc(6/18 * 100%); */
     border-left: 2px solid black;
     border-right: 2px solid black;
 }
