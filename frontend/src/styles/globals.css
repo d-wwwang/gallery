@@ -1,4 +1,7 @@
 body {
     margin: 0;  /* Removes default margin applied by browser */
+    padding: 0; /* Removes default padding applied by browser */
+    overflow: hidden; /* Disables scrolling */
+    height: 100%;
     font-family: 'neue-haas-grotesk-text', sans-serif;
 }

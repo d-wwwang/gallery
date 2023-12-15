@@ -1,0 +1,23 @@
+.browseColumn {
+    flex: 1; /* Allows column to take up unused space */
+    height: 100vh;
+    width: calc(3/18 * 100%);
+    overflow-y: scroll; /* Enables vertical scrolling */
+}
+
+.columnBlock {
+    height: 50vh; /* Half of viewport height */
+    width: 100%; /* Fits column width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Ensures image does not overflow the block */
+    border-bottom: 2px solid black;
+    border-top: none; /* Prevents overlapping of borders */
+}
+
+.columnBlockImage {
+    height: 100%;
+    width: 100%;
+    object-fit: contain; /* Ensures image fits the block area */
+}

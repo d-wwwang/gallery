@@ -1,0 +1,23 @@
+.windowContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: calc(1/18 * 100vw); /* Left border spacing */
+    padding-right: calc(1/18 * 100vw); /* Right border spacing */
+}
+
+.columnPairContainer {
+    display: flex;
+    width: calc(6/18 * 100%); /* Width of column pair (3/18 * 2) */
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.columnPairContainer:first-child {
+    border-right: none /* Prevent overlapping borders */
+}
+
+.navContainer {
+    flex: 0 0 calc(4/18 * 100%); /* Width of navigation area (1 - (2 * 1/18 + 2 * 6/18) = 4/18) */
+}

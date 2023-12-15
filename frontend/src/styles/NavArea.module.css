@@ -4,6 +4,7 @@
     text-align: center;
     background-color: white;
     padding-top: 50px;
+    padding-bottom: 30px;
 }
 
 .navAreaCaption {
@@ -11,5 +12,5 @@
     font-style: normal;
     font-weight: 600;                                       
     font-size: 12px;
-    padding-top: 6px; 
+    padding-top: 18px; 
 }
